@@ -1,0 +1,21 @@
+{
+  "name": "yjs-server",
+  "version": "0.0.1",
+  "description": "YJS Demo Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node yjs-server.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hocuspocus/extension-logger": "^1.0.0-beta.4",
+    "@hocuspocus/server": "^1.0.0-beta.4",
+    "@slate-yjs/core": "^0.3.1",
+    "yjs": "^13.5.42"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  }
+}
