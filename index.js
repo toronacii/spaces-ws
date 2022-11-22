@@ -1,7 +1,7 @@
-import { Logger } from '@hocuspocus/extension-logger';
-import { Server } from '@hocuspocus/server';
-import { slateNodesToInsertDelta } from '@slate-yjs/core';
-import * as Y from 'yjs';
+const { Logger } = require('@hocuspocus/extension-logger');
+const { Server } = require('@hocuspocus/server');
+const { slateNodesToInsertDelta } = require('@slate-yjs/core');
+const Y = require('yjs');
 
 const initialValue = [{ type: 'paragraph', children: [{ text: 'Demo' }] }];
 
