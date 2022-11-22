@@ -7,7 +7,7 @@ const initialValue = [{ type: 'paragraph', children: [{ text: 'Demo' }] }];
 
 // Setup the server
 const server = Server.configure({
-  port: 4000,
+  port: Number(process.env.PORT || 4000),
 
   // Add logging
   extensions: [new Logger()],
